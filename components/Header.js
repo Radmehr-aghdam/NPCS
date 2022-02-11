@@ -1,15 +1,15 @@
-import { Text } from '@chakra-ui/react'
+import { Center } from '@chakra-ui/react'
 
 
-export default function Header (){
+export default function Header() {
 
     var count = 0
 
     return (
         <>
-            <Text key={++count}>
-                this is the Header test text
-            </Text>
+            <Center key={++count} mt='100px'>
+                This is the Header test text
+            </Center>
         </>
     )
 }

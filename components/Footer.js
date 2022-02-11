@@ -1,15 +1,15 @@
-import { Text } from '@chakra-ui/react'
+import { Center } from '@chakra-ui/react'
 
 
-export default function Footer (){
+export default function Footer() {
 
     var count = 0
 
     return (
         <>
-            <Text key={++count}>
+            <Center key={++count}>
                 Footer test text
-            </Text>
+            </Center>
         </>
     )
 }

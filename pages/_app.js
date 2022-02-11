@@ -1,6 +1,6 @@
 import { ChakraProvider, extendTheme } from '@chakra-ui/react'
 import styled from "@emotion/styled";
-// import "@fontsource/fontname"
+import "@fontsource/lato"
 
 
 // set custom color, font , etc here
@@ -16,9 +16,9 @@ const theme = extendTheme({ colors })
 
 // CustomFont:
 // Find fonts, install and import it: https://fontsource.org/fonts
-// const AppContainer = styled.div`
-//   font-family: "fontname";
-// `;
+const AppContainer = styled.div`
+  font-family: "lato";
+`;
 
 
 function MyApp({ Component, pageProps }) {

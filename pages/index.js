@@ -1,4 +1,4 @@
-import { Text } from '@chakra-ui/react'
+import { Center } from '@chakra-ui/react'
 
 export default function Home() {
 
@@ -6,9 +6,9 @@ export default function Home() {
 
   return (
     <>
-      <Text key={++count}>
-        test text to index page
-      </Text>
+      <Center key={++count}>
+        Test text to index page
+      </Center>
     </>
   )
 }
