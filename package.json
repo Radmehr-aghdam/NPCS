@@ -5,12 +5,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:migrate": "dotenv-flow -- npx prisma migrate dev --preview-feature",
+    "db:reset": "dotenv-flow -- npx prisma migrate reset --preview-feature",
+    "db:generate": "dotenv-flow -- npx prisma generate",
+    "db:studio": "dotenv-flow -- npx prisma studio reset --preview-feature",
+    "db:pull": "dotenv-flow -- npx prisma db pull"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.7.3",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
+    "@fontsource/open-sans": "^4.5.5",
+    "@fontsource/raleway": "^4.5.3",
     "framer-motion": "^5.5.5",
     "next": "12.0.7",
     "react": "17.0.2",
