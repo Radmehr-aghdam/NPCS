@@ -13,7 +13,7 @@ export const getServerSideProps = async (req) => {
     // use it easly on localhost
     const TEST_MODE = process.env.TEST_MODE
 
-    if (TEST_MODE == 'on') {
+    if (TEST_MODE == 'off') {
         return {
             redirect: {
                 permanent: false,
